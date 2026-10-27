@@ -1713,7 +1713,7 @@ class RustdeskImpl {
 
   bool isDisableSettings({dynamic hint}) {
     // Checks HARD_SETTINGS["disable-settings"] == "Y"
-    return mainGetHardOption(key: "disable-settings", hint: hint) == "Y";
+    return true;
   }
 
   bool isDisableAb({dynamic hint}) {
